@@ -1,0 +1,130 @@
+
+body{
+    background-color: black;
+}
+.sans{
+    position: absolute;
+    top:15%;
+    left:50%;
+    transform: translate( -50%, -15% );
+    width:300px;
+    height:50px;
+}
+#main{
+    border:5px solid white;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate( -50%, -60% );
+    width:80%;
+    height:300px;
+}
+#text{
+    border:1px solid transparent;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size:30px;
+    width:90%;
+    height:80%;
+    font-family: 'Press Start 2P', cursive;
+}
+#btnline{
+    border:1px solid black;
+    width:80%;
+    height:60px;
+    position:absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%,-90%);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn{
+    border:5px solid orange;
+    background-color: black;
+    color:orange;
+    text-align: center;
+    width:250px;
+    height:80px;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#name{
+    position:absolute;
+    top:75%;
+    left:10%;
+    transform: translate(-10%,-75%);
+    border:1px solid transparent;
+    color:white;
+    font-size:30px;
+    font-family: 'Press Start 2P', cursive;
+}
+#LV{
+    position:absolute;
+    top:75%;
+    left:25%;
+    transform: translate(-25%,-75%);
+    border:1px solid transparent;
+    color:white;
+    font-size:30px;
+    font-family: 'Press Start 2P', cursive;
+}
+#hptxt{
+    position:absolute;
+    top:75%;
+    left:40%;
+    transform: translate(-40%,-75%);
+    border:1px solid transparent;
+    color:white;
+    font-size:30px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#hp{
+    border:1px solid transparent;
+    position:absolute;
+    top:75%;
+    left:52%;
+    transform: translate(-52%,-75%);
+    background-color: red;
+    width:364px;
+    height:40px;
+    z-index:1;
+}
+#hpbar{
+    border:1px solid transparent;
+    position:absolute;
+    top:75%;
+    left:0%;
+    transform: translate( 0% ,-75%);
+    background-color: yellow;
+    width:364px;
+    height:40px;
+    z-index:2;
+}
+#karma{
+    position:absolute;
+    top:75%;
+    left:63%;
+    transform: translate(-63%,-75%);
+    border:1px solid transparent;
+    color:white;
+    font-size:25px;
+    font-family: 'Press Start 2P', cursive;
+}
+#hpnum{
+    position:absolute;
+    top:75%;
+    left:75%;
+    transform: translate(-75%,-75%);
+    border:1px solid transparent;
+    color:white;
+    font-size:30px;
+    font-family: 'Press Start 2P', cursive;
+}
